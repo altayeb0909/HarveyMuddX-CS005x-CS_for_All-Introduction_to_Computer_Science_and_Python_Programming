@@ -1,22 +1,19 @@
-# python 2
-
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Author: Ivan Zemlyaniy aka shaolinfm
 # @Date:   2015-06-01 15:24:12
-# @Last Modified by:   shaolinfm
-# @Last Modified time: 2015-06-03 09:21:37
+# @Last Modified by:   Ivan Zemlyaniy
+# @Last Modified time: 2015-06-15 01:40:20
+#
+#Homework 1, Problem 2 - "Rock, Paper, Scissors" Game
+#
+#This is simple implementation of famous game called "Rock, Paper, Scissors".
 
-
-"""
-Homework 1, Problem 2 - "Rock, Paper, Scissors" Game
-
-This is simple implementation of famous game called "Rock, Paper, Scissors".
-"""
 import random
 
 def rock_paper_scissors():
-
+    """This function compare random choise of computer with human input and give answer about who win.
+    """
     variations = ("rock", "paper", "scissors")
     user = str(raw_input("Choose your weapon: "))
     computer = variations[random.randint(0,2)]

@@ -2,20 +2,18 @@
 # -*- coding: utf-8 -*-
 # @Author: Ivan Zemlyaniy aka shaolinfm
 # @Date:   2015-06-01 15:24:12
-# @Last Modified by:   shaolinfm
-# @Last Modified time: 2015-06-03 10:11:05
+# @Last Modified by:   Ivan Zemlyaniy
+# @Last Modified time: 2015-06-15 01:40:52
+#
+#Homework 1, Problem 1 - "Four-Fours Puzzle"
+#
+#This is simple implementation of "Four-Fours Puzzle" described in the January 1964 issue of Scientific American in Martin Gardner's "Mathematical Games" column.".
 
-
-"""
-Homework 1, Problem 1 - "Four-Fours Puzzle"
-
-This is simple implementation of "Four-Fours Puzzle" described in the January 1964 issue of Scientific American in Martin Gardner's "Mathematical Games" column.".
-"""
 import os
 
 def four_fours():
-    """Function for printing on screen results of Four-Fours Puzzle"""
-
+    """Function for printing on screen results of Four-Fours Puzzle
+    """
     print '"Four-Fours Puzzle"'
     print "Zero is: 4 + 4 - 4 - 4 =", 4 + 4 - 4 - 4
     print "One is: (4 + 4) / (4 + 4) =", (4 + 4) / (4 + 4)
